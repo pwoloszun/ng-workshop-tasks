@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="/css/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/js/vendor.js" type="text/javascript"></script>
+    <script src="/js/application.js" type="text/javascript"></script>
+    <script src="/js/012_directive_isolated_scope_bidirectional_binding/UserCtrl.js" type="text/javascript"></script>
+    <script src="/js/012_directive_isolated_scope_bidirectional_binding/user.js" type="text/javascript"></script>
+    <script src="/js/012_directive_isolated_scope_bidirectional_binding/PointsCtrl.js" type="text/javascript"></script>
+    <script src="/js/012_directive_isolated_scope_bidirectional_binding/pointsSet.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <nav class='top-bar' data-topbar>
+      <ul class='title-area'>
+        <li class='name'>
+          <h1>
+            <a href="/">AngularJS workshop</a>
+          </h1>
+        </li>
+      </ul>
+      <section class='top-bar-section'>
+        <ul class='right'>
+          <li>
+            <a href="/">Home</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+    <div class='row main'>
+      <h3>Directive isolated scope: bidirectional binding (=)</h3>
+      <div ng-app='App'>
+        <div class='row' ng-controller='UserCtrl'>
+          <h5>
+            Ctrl User
+          </h5>
+          <input ng-model='ctrlName' type='text'>
+          <h5>
+            Directive User
+          </h5>
+          <user user-name='ctrlName'></user>
+        </div>
+        <hr>
+        <div class='row' ng-controller='PointsCtrl'>
+          <h5>Add point</h5>
+          <input ng-model='x' type='text'>
+          <input ng-model='y' type='text'>
+          <button ng-click='addPoint(x, y)'>
+            Add point
+          </button>
+          <points-set points='myPoints'></points-set>
+        </div>
+      </div>
+    </div>
+    <div class='zurb-footer-bottom'>
+      <div class='row'>
+        &copy; Copyright Piotr Woloszun
+      </div>
+    </div>
+    <script src="/js/vendor/foundation.js" type="text/javascript"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

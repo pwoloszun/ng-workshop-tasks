@@ -1,0 +1,4 @@
+Define directives:
+- my-click
+- my-dblclick
+- my-log-pressed-key

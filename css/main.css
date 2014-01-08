@@ -1,0 +1,21 @@
+/* line 1, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+.main {
+  min-height: 600px; }
+
+/* line 5, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+.magic-box {
+  border: 5px solid #008cba;
+  background-color: darkorange;
+  color: #fff;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold; }
+
+/* line 20, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+.live-chat-widget,
+.custom-drink,
+.crud-manager {
+  width: 300px; }

@@ -1,0 +1,9 @@
+Create directive "custom-drink" with attributes:
+- type
+- with-sugar
+- with-milk
+
+It should render custom drink panel with:
+- drink button (buton text should include drink type, and optional sugar type and milk type
+- optional sugar type text field
+- optional milk type text field

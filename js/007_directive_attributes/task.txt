@@ -1,0 +1,5 @@
+Define directives:
+- my-click: toggle class passed as attr value ie "error",
+- my-dblclick: alerts string passed as attr value,
+- my-log-pressed-key: appends element value with pressed key
+

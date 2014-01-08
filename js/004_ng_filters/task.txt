@@ -1,0 +1,4 @@
+1) introduce setOrder(propertyName) method in ctrl
+2) when user clicks on column header it should sort table by selected proerty (+ reverse sort)
+3) introduce searchCriteria property in ctrl
+4) replace search-by fields with single text field and select for all available search criteria

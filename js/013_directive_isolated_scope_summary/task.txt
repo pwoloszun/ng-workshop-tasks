@@ -1,0 +1,11 @@
+I. Create PeopleCtrl introducing methods:
+  - create(name)
+  - update(person, text)
+  - remove(item)
+  and initializes people property with array of objects {name: "some name..."}
+
+II. Create directive "crud-manager" with attributes:
+  - crud-items - reference to list of bidirectional, shared objects that will be modified
+  - crud-label - string that will be displayed as widget title and button text
+  - item-label-property - string with item property that will be displayed in html select option
+  - crud-click - expression that should be called on widget btn click

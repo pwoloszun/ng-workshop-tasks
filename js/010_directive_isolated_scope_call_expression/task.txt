@@ -1,0 +1,5 @@
+Implement directive "live-chat-widget" with attributes:
+  1) select-change="someFunction()" - on select change will call function passed as attr value
+  2) btn-click="someOtherFunction(message, type)" - on button click will call function passed as attr value with arguments:
+    message - text from text field
+    type - value of selected item

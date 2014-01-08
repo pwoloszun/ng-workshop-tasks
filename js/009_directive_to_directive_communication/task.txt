@@ -1,0 +1,6 @@
+1. Create "superhero" directive
+2. Create 3 additional directives: "fight", "flight", "sixthSense"
+3. create 3 buttons with directives:
+  - Batman (fight),
+  - Spiderman (fight, sixthSense),
+  - Phoenix(fight, flight, sixthSense)

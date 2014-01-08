@@ -1,0 +1,11 @@
+I.
+1) Implement PointsCtrl method: addPoint(x, y)
+2) Add text fields for X  Y coords and btn that will add new points to myPoints collection
+
+II.
+Create directive "points-set" with attribute:
+- points - which expects a reference to array of point objects {x: 1, y: 1}
+
+Directive should:
+1) render list of points set in ctrl
+2) render button "Clear", when user clicks button it empties list
