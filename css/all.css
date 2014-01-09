@@ -7485,3 +7485,42 @@ th.hide-for-touch {
 .custom-drink,
 .crud-manager {
   width: 300px; }
+
+/* line 24, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+.top-container {
+  height: 480px; }
+
+/* line 28, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+.map-container {
+  float: left;
+  width: 66%;
+  height: 100%;
+  background-color: paleturquoise; }
+
+/* line 35, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+.details-container {
+  float: left;
+  width: 33%;
+  height: 100%;
+  background-color: blanchedalmond; }
+
+/* line 42, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+.list-container {
+  background-color: #43ac6a;
+  width: 99%; }
+  /* line 46, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+  .list-container table {
+    width: 100%; }
+
+/* line 51, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+.map {
+  width: 90%;
+  height: 90%;
+  background-color: aqua;
+  margin: 12px auto; }
+
+/* line 58, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+.item-details {
+  height: 460px;
+  margin: 10px;
+  background-color: chocolate; }
