@@ -80,5 +80,12 @@ ngFiltersApp.controller("AllStarGameCtrl", [
     $scope.players = asgPlayersSrv.all();
 
     $scope.orderField = "name";
+
+    // TODO: example
+    $scope.heroes = {
+      first: {name: "Batman"},
+      sec: {name: "Superman"}
+    };
+
   }
 ]);

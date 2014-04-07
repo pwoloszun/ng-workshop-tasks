@@ -27,6 +27,7 @@
       <h3>ng filters</h3>
       <div ng-app='ngFiltersApp'>
         <div ng-controller='AllStarGameCtrl'>
+          <select ng-model="xxx" ng-options="superHero.name for (key, superHero) in heroes"></select>
           <div class='panel'>
             <label>Search all:</label>
             <input ng-model='searchCriteria.$' type='text'>
