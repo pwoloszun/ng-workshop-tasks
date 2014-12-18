@@ -1,0 +1,7 @@
+Create directive "foundation-modal" which will receive attribute:
+  - fm-id - a string containing uniq html id od modal window
+
+and will wrap up its content into foundation modal window (http://foundation.zurb.com/docs/components/reveal.html)
+
+IMPORTANT: In link function call:
+  $($document).foundation();

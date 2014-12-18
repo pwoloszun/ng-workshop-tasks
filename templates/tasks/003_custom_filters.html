@@ -1,0 +1,18 @@
+<h3>Custom filters</h3>
+<input ng-model='message' type='text'>
+<h5>Reversed:</h5>
+<p>
+  {{message | reverse}}
+</p>
+<h5>Reversed and splitted with "|"</h5>
+<p>
+  {{message | reverseSplit:"|"}}
+</p>
+<hr/>
+<div>
+  <input ng-model='winPct' type='number'/>
+  <p>
+    Percentage: {{winPct | percentage}}
+    Percentage (2): {{winPct | percentage:6}}
+  </p>
+</div>

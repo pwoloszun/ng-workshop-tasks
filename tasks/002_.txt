@@ -1,0 +1,4 @@
+Add toggle button. When user clicks on button:
+1) it hides/shows #toggle-cont element
+2) it adds/removes css class "alert" on clicked button
+3) it changes button text to: "Show it!"/"Hide it"

@@ -1,8 +1,8 @@
-/* line 1, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+/* line 1, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
 .main {
   min-height: 600px; }
 
-/* line 5, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+/* line 5, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
 .magic-box {
   border: 5px solid #008cba;
   background-color: darkorange;
@@ -14,46 +14,46 @@
   text-align: center;
   font-weight: bold; }
 
-/* line 20, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+/* line 18, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
 .live-chat-widget,
 .custom-drink,
 .crud-manager {
   width: 300px; }
 
-/* line 24, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+/* line 24, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
 .top-container {
   height: 480px; }
 
-/* line 28, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+/* line 28, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
 .map-container {
   float: left;
   width: 66%;
   height: 100%;
   background-color: paleturquoise; }
 
-/* line 35, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+/* line 35, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
 .details-container {
   float: left;
   width: 33%;
   height: 100%;
   background-color: blanchedalmond; }
 
-/* line 42, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+/* line 42, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
 .list-container {
   background-color: #43ac6a;
   width: 99%; }
-  /* line 46, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+  /* line 46, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
   .list-container table {
     width: 100%; }
 
-/* line 51, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+/* line 51, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
 .map {
   width: 90%;
   height: 90%;
   background-color: aqua;
   margin: 12px auto; }
 
-/* line 58, /home/piotrw/workspace/rubymine/rocketmind_software/ng-workshop-tasks/source/css/main.css.scss */
+/* line 58, /home/piotrw/WebstormProjects/private_bitbucket/ng-workshop-solutions/source/css/main.css.scss */
 .item-details {
   height: 460px;
   margin: 10px;

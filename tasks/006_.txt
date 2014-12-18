@@ -1,0 +1,4 @@
+Define directives:
+- rm-click
+- rm-dbl-click
+- rm-log-pressed-key (add it on input element)

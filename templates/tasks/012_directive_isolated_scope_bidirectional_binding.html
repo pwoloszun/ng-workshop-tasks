@@ -1,0 +1,22 @@
+<h3>Directive isolated scope: bidirectional binding (=)</h3>
+<div class='row' ng-controller='UserCtrl'>
+  <h5>
+    Ctrl User
+  </h5>
+  <input ng-model='ctrlName' type='text'>
+  <h5>
+    Directive User
+  </h5>
+
+  <div user user-name='ctrlName'></div>
+</div>
+<hr>
+<div class='row' ng-controller='PointsCtrl'>
+  <h5>Add point</h5>
+  <input ng-model='x' type='text'>
+  <input ng-model='y' type='text'>
+  <button ng-click='addPoint(x, y)'>
+    Add point
+  </button>
+  <points-set points='myPoints'></points-set>
+</div>

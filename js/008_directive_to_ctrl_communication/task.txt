@@ -1,3 +1,0 @@
-1) implement ctrl method: removePerson(index)
-2) add btn "Remove person" with my-click using new method
-3) refactor myClick directive, so it will be reuseable ie will work for both fetchPeople() & removePerson(index)

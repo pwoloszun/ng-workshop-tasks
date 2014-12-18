@@ -1,0 +1,9 @@
+<h3>Directive isolated scope summary</h3>
+<div class='row' ng-controller='BooksCtrl'>
+  <crud-manager crud-click='create(text)' crud-items='books' crud-label='Add'
+                item-label-property='title'></crud-manager>
+  <crud-manager crud-click='update(item, text)' crud-items='books' crud-label='Update'
+                item-label-property='title'></crud-manager>
+  <crud-manager crud-click='remove(item)' crud-items='books' crud-label='Delete'
+                item-label-property='title'></crud-manager>
+</div>

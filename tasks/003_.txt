@@ -1,0 +1,5 @@
+1. Create filter: reverseSplit:separator - it reverses passed text and separates each char with separator string
+
+2. Refactor reverseSplit, and reuse "reverse" filter
+
+3. Create filter percentage, reuse built-0in filter: "number". It should display "%" if value is empty/undefined/null

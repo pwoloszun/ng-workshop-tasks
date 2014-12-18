@@ -1,0 +1,7 @@
+Sorting:
+1) introduce setOrder(propertyName) method in ctrl
+2) when user clicks on column header it should sort table by selected property (+ reverse sort)
+
+Filtering:
+1) filter list using built in "filter" filter and searchCriteria object
+2) introduce <select> with ng-options for all available search criteria, display all search criteria values

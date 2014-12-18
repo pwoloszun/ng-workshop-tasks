@@ -1,0 +1,17 @@
+<h3>Directive isolated scope: call expression (&)</h3>
+<div ng-controller='GreetingsCtrl'>
+  <div class='row'>
+    <div call-fn fn-to-call='greet()'></div>
+    <div call-fn fn-to-call="sayHiTo('Bob')"></div>
+  </div>
+  <hr>
+  <div class='row'>
+    <div call-with-text fn-to-call='sayHiTo(someText)'></div>
+  </div>
+</div>
+<hr>
+<div ng-controller='ChatCtrl'>
+  <div class='row'>
+    TODO: live-chat-widget directive
+  </div>
+</div>

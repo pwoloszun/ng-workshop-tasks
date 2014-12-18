@@ -1,4 +1,0 @@
-1. Create filter: reverseSplit:separator - it reverses passed text and separates each char with separator string
-TODO: reuse reverse filter
-
-2. Create filter swapCase

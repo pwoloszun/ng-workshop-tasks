@@ -1,0 +1,52 @@
+<h3>ng filters</h3>
+<div ng-controller='AllStarGameCtrl'>
+  <div class='panel'>
+    <label>Search by:</label>
+    TODO: select field
+  </div>
+  <div class='panel'>
+    TODO: curerntly selected search criteria input
+    <div class="panel callout">
+      TODO: all search criteria
+    </div>
+  </div>
+
+  <div class='panel'>
+    <label>Search all:</label>
+    <input ng-model='searchCriteria.$' type='text'>
+  </div>
+  <div class='panel'>
+    <label>Search by name:</label>
+    <input ng-model='searchCriteria.name' type='text'>
+  </div>
+  <table>
+    <tr>
+      <th>
+        <a>Position</a>
+      </th>
+      <th>
+        <a>Name</a>
+      </th>
+      <th>
+        <a>Team</a>
+      </th>
+      <th>
+        <a>Side</a>
+      </th>
+    </tr>
+    <tr ng-repeat='player in players'>
+      <td>
+        {{player.position}}
+      </td>
+      <td>
+        {{player.name}}
+      </td>
+      <td>
+        {{player.team | uppercase}}
+      </td>
+      <td>
+        {{player.side}}
+      </td>
+    </tr>
+  </table>
+</div>

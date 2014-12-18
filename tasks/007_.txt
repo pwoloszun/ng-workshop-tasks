@@ -1,0 +1,5 @@
+Modify directives:
+- rm-click: toggle class passed as attr value ie "error",
+- rm-dbl-click: alerts string passed as attr value,
+- rm-log-pressed-key: appends element value with pressed key
+

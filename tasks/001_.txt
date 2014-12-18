@@ -1,0 +1,2 @@
+1) Zdefiniuj w nowe scope'ie własnosci: "id", "age"
+2) Dodaj na widoku pola tekstowe do edycji nowych wlasnosci scope'a
