@@ -2,9 +2,11 @@ App.controller("PersonCtrl", [
   "$scope",
   function($scope) {
 
-    $scope.person = {
+    var bob = {
       name: "Bob"
     };
+
+    $scope.person = bob;
 
     $scope.greet = function(suffix) {
       var msg = "Hi " + $scope.person.name + ".";

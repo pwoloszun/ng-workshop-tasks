@@ -1,4 +1,7 @@
 Add toggle button. When user clicks on button:
-1) it hides/shows #toggle-cont element
-2) it adds/removes css class "alert" on clicked button
-3) it changes button text to: "Show it!"/"Hide it"
+1) define controller "ButtonController"
+2) it hides/shows "#toggle-cont" element
+    (use ng-hide directive)
+3) it adds/removes css class "alert" on clicked button
+    (use: ng-class directive)
+4) it changes button text to: "Show it!"/"Hide it"
