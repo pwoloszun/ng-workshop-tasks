@@ -6,16 +6,20 @@ describe("percentage", function() {
   });
 
   describe("value is defined", function() {
-    xit("should TODO", function() {
-      var value = 123;
+    xit("should return given percentage", function() {
+      var value = 123.01;
       percentage(value).should.be.equal(value + "%");
     });
   });
 
   describe("value is undefined", function() {
-    xit("should TODO", function() {
+    xit("should return % sign", function() {
       var value;
       percentage(value).should.be.equal("%");
     });
+  });
+
+  xdescribe("both value & fraction size are defined", function() {
+    // TODO
   });
 });

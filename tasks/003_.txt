@@ -2,4 +2,5 @@
 
 2. Refactor reverseSplit, and reuse "reverse" filter
 
-3. Create filter percentage, reuse built-0in filter: "number". It should display "%" if value is empty/undefined/null
+3. Create filter percentage, reuse built-0in filter: "number".
+  It should display "%" if value is empty/undefined/null
