@@ -1,0 +1,20 @@
+[
+  {
+    "position": "G",
+    "name": "Allen Iverson",
+    "team": "Philadelphia 76ers",
+    "side": "East"
+  },
+  {
+    "position": "G",
+    "name": "Tracy McGrady",
+    "team": "Orlando Magic",
+    "side": "East"
+  },
+  {
+    "position": "F",
+    "name": "Vince Carter",
+    "team": "Toronto Raptors",
+    "side": "East"
+  }
+]
