@@ -2,9 +2,9 @@ App.directive("user", [
   function() {
     return {
       scope: {
-        userName: "="
+        myAttr: "="
       },
-      template: "<input type='text' ng-model='userName' />"
+      template: "USER DIRECTIVE: <input type='text' ng-model='myAttr' />"
     };
   }
 ]);
