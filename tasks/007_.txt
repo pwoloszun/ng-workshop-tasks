@@ -1,8 +1,12 @@
 Create directive:
-- click-toggle-class
+1) click-toggle-class
 
-<button click-toggle-class="alert xxx" class="alert xxx">
+<input ng-model="xxx"/>
+<button click-toggle-class="alert" call="xxx = xxx + 'q'">
   test
 </button>
 
 use jQuery: .toggleClass() method
+
+2) attach on click event, which performs
+  angular expression from "call" attribute
