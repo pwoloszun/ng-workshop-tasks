@@ -1,12 +1,12 @@
 <h3>Directive isolated scope: call expression (&)</h3>
 <div ng-controller='GreetingsCtrl'>
   <div class='row'>
-    <div call-fn fn-to-call='greet()'></div>
-    <div call-fn fn-to-call="sayHiTo('Bob')"></div>
+    <call-fn fn-to-call='greet()'></call-fn>
+    <call-fn fn-to-call="sayHiTo('Bob')"></call-fn>
   </div>
   <hr>
   <div class='row'>
-    <div call-with-text fn-to-call='sayHiTo(someText)'></div>
+    <call-with-text fn-to-call='sayHiTo(someText)'></call-with-text>
   </div>
 </div>
 <hr>
