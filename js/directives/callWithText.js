@@ -4,7 +4,7 @@ App.directive("callWithText", [
       scope: {
         fnToCall: "&"
       },
-      templateUrl: "/templates/directives/call_with_text.html"
+      templateUrl: "templates/directives/call_with_text.html"
     };
   }
 ]);
