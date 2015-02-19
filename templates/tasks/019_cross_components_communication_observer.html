@@ -1,0 +1,17 @@
+<h3>Cross Components Communication: Observer</h3>
+
+<div ng-controller="Observer.ProducerCtrl" class="panel">
+  <h5>Producer</h5>
+
+  <p>
+    Name: <input ng-model="producerPerson.name"/>
+  </p>
+</div>
+
+<div ng-controller="Observer.ConsumerCtrl" class="panel">
+  <h5>Consumer</h5>
+
+  <p>
+    Name: {{consumerPerson.name}}
+  </p>
+</div>
