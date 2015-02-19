@@ -54,4 +54,20 @@ App.constant("taskRoutesData", [{
   state: "task-14",
   name: "Transclusion basics",
   filename: "014_transclusion_basics"
+}, {
+  state: "task-15",
+  name: "Cross Components Communications: Inherited Scope",
+  filename: "015_cross_components_communication_inherited_scope"
+}, {
+  state: "task-16",
+  name: "Cross Components Communications: Events",
+  filename: "016_cross_components_communication_events"
+}, {
+  state: "task-17",
+  name: "Cross Components Communications: Shared Service",
+  filename: "017_cross_components_communication_shared_service"
+}, {
+  state: "task-18",
+  name: "Scope $watch types",
+  filename: "018_scope_watch_types"
 }]);

@@ -1,0 +1,18 @@
+<h3>Cross Components Communication: Events</h3>
+
+
+<div ng-controller="Events.ProducerCtrl" class="panel">
+  <h5>Producer</h5>
+
+  <p>
+    Name: <input ng-model="producerPerson.name"/>
+  </p>
+</div>
+
+<div ng-controller="Events.ConsumerCtrl" class="panel">
+  <h5>Consumer</h5>
+
+  <p>
+    Name: {{consumerPerson.name}}
+  </p>
+</div>

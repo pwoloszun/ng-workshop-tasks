@@ -1,6 +1,6 @@
-App.directive("callWithText", [
+App.directive("itemsList", [
   "templatesProvider",
   function(templatesProvider) {
-    // TODO
+    //TODO
   }
 ]);

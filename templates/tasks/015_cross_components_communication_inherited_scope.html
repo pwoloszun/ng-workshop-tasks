@@ -1,0 +1,24 @@
+<h3>Cross Components Communication: Inherited Scope</h3>
+
+<div ng-controller="InheritedScope.ParentCtrl">
+  <div>
+    <div ng-controller="InheritedScope.ProducerCtrl" class="panel">
+      <h5>Producer</h5>
+
+      <p>
+        Name: <input ng-model="producerPerson.name"/>
+      </p>
+    </div>
+  </div>
+
+  <div ng-controller="InheritedScope.ConsumerCtrl" class="panel">
+    <h5>Consumer</h5>
+
+    <p>
+      Name: {{consumerPerson.name}}
+    </p>
+  </div>
+
+</div>
+
+

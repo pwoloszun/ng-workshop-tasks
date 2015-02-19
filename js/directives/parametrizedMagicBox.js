@@ -6,6 +6,9 @@ App.directive("parametrizedMagicBox", [
       link: function(scope, element, attributes) {
         console.log("Atribute parametrizedMagicBox:", attributes.parametrizedMagicBox);
         console.log("Atribute xxx:", attributes.xxx);
+
+        //TODO: obseerve attribute value change
+        //TODO: evaluate attribute value expression
       }
     };
   }

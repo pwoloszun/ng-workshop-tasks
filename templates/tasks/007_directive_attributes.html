@@ -1,5 +1,9 @@
 <h3>Directive attributes</h3>
 <div class='row'>
   <h5>Magic box</h5>
-  <div parametrized-magic-box='imba!' xxx="{qq: 123}"></div>
+  <div parametrized-magic-box='imba!' xxx="yyy = 123"></div>
+  <div parametrized-magic-box='qq!' xxx="yyy = 997"></div>
+  <div parametrized-magic-box='qq!' xxx="{{yyy}}"></div>
+
+  <input ng-model="yyy"/>
 </div>
