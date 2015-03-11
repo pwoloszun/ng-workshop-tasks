@@ -16,8 +16,9 @@ beforeEach(function() {
     that.$filter = $filter;
     that.$injector = $injector;
 
-    that.$compile = function(html) {
-      return $compile(html)(that.$scope);
+    that.$compile = function(html, scope) {
+      var linkFn = $compile(html);
+      return linkFn(that.$scope);
     };
 
     var ctrlDefaultDependencies = {
