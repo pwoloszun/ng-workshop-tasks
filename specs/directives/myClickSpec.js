@@ -3,8 +3,8 @@ describe("myClick", function() {
 
   beforeEach(function() {
     var html = "<div my-click='xxx = 123'></div>";
-    el = this.$compile(html);
-    this.$digest();
+    el = $h.$compile(html);
+    $h.$digest();
   });
 
   describe("scope model change", function() {
@@ -13,7 +13,7 @@ describe("myClick", function() {
     });
 
     xit("should eval expression", function() {
-      this.$scope.xxx.should.equal(123);
+      $h.$scope.xxx.should.equal(123);
     });
   });
 });

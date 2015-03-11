@@ -2,7 +2,7 @@ describe("percentage", function() {
   var percentage;
 
   beforeEach(function() {
-    percentage = this.$filter("percentage");
+    percentage = $h.$filter("percentage");
   });
 
   describe("value is defined", function() {

@@ -2,7 +2,7 @@ describe("playersService", function() {
   var playersService;
 
   beforeEach(function() {
-    playersService = this.$inject("playersService");
+    playersService = $h.$inject("playersService");
   });
 
   describe("all()", function() {

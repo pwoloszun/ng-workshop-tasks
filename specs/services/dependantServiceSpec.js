@@ -10,7 +10,7 @@ describe("dependantService", function() {
     var dependencies = {
       "firstDependencyService": mock
     };
-    dependantService = this.$inject("dependantService", dependencies);
+    dependantService = $h.$inject("dependantService", dependencies);
   });
 
   describe("calculate()", function() {

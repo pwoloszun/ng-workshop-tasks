@@ -2,12 +2,12 @@ describe("BooksCtrl", function() {
   var BooksCtrl;
 
   beforeEach(function() {
-    BooksCtrl = this.$controller("BooksCtrl");
+    BooksCtrl = $h.$controller("BooksCtrl");
   });
 
   describe("books", function() {
     it("should initialize books collection", function() {
-      this.$scope.books.length.should.equal(3);
+      $h.$scope.books.length.should.equal(3);
     });
   });
 
@@ -16,15 +16,15 @@ describe("BooksCtrl", function() {
 
     beforeEach(function() {
       title = "test title";
-      this.$scope.create(title);
+      $h.$scope.create(title);
     });
 
     it("should increase books collection by 1", function() {
-      this.$scope.books.length.should.equal(4);
+      $h.$scope.books.length.should.equal(4);
     });
 
     it("should push new book to books collection", function() {
-      var lastBook = _(this.$scope.books).last();
+      var lastBook = _($h.$scope.books).last();
       lastBook.title.should.equal(title);
     });
   });

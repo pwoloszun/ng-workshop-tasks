@@ -7,17 +7,17 @@ describe("playersRepository", function() {
       {id: 2, name: "bob"},
       {id: 3, name: "ed"}
     ];
-    playersRepository = this.$inject("playersRepository");
+    playersRepository = $h.$inject("playersRepository");
   });
 
   describe("getAll()", function() {
     var callback;
 
     beforeEach(function() {
-      this.$http.whenGET("server/players.json").respond(playersJSON);
+      $h.$http.whenGET("server/players.json").respond(playersJSON);
       callback = sinon.spy();
       playersRepository.getAll(callback);
-      this.$http.flush();
+      $h.$http.flush();
     });
 
     xit("should call callback function once", function() {

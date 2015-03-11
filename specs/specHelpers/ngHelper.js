@@ -1,50 +1,49 @@
+var $h = {};
+
 beforeEach(function() {
-  var that = this;
   module('Ng-Tasks-App', function($provide) {
-    that.$provide = $provide;
+    $h.$provide = $provide;
   });
 });
 
 beforeEach(function() {
-  var that = this;
-
   inject(function($httpBackend, $compile, $rootScope, $controller, $location, $injector, $timeout, $filter) {
-    that.$scope = $rootScope.$new();
-    that.$http = $httpBackend;
-    that.$location = $location;
-    that.$timeout = $timeout;
-    that.$filter = $filter;
-    that.$injector = $injector;
+    $h.$scope = $rootScope.$new();
+    $h.$http = $httpBackend;
+    $h.$location = $location;
+    $h.$timeout = $timeout;
+    $h.$filter = $filter;
+    $h.$injector = $injector;
 
-    that.$compile = function(html, scope) {
+    $h.$compile = function(html, scope) {
       var linkFn = $compile(html);
-      return linkFn(that.$scope);
+      return linkFn($h.$scope);
     };
 
     var ctrlDefaultDependencies = {
-      "$scope": that.$scope
+      "$scope": $h.$scope
     };
-    that.$controller = function(id, dependencies) {
+    $h.$controller = function(id, dependencies) {
       $controller(id, _(ctrlDefaultDependencies).extend(dependencies || {}));
     };
 
-    that.$inject = function(name, dependencies) {
+    $h.$inject = function(name, dependencies) {
       for (var id in dependencies || {}) {
         var mock = dependencies[id];
-        that.$provide.value(id, mock);
+        $h.$provide.value(id, mock);
       }
-      return that.$injector.get(name);
+      return $h.$injector.get(name);
     };
 
-    that.$digest = function() {
-      that.$scope.$digest();
+    $h.$digest = function() {
+      $h.$scope.$digest();
     };
-    //that.sandbox = sinon.sandbox.create();
+    //$h.sandbox = sinon.sandbox.create();
   });
 
 });
 
 afterEach(function() {
-  this.$http.resetExpectations();
-  this.$http.verifyNoOutstandingExpectation();
+  $h.$http.resetExpectations();
+  $h.$http.verifyNoOutstandingExpectation();
 });

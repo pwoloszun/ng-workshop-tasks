@@ -3,8 +3,8 @@ describe("interactiveMagicBox", function() {
 
   beforeEach(function() {
     var html = "<div interactive-magic-box></div>";
-    el = this.$compile(html);
-    this.$digest();
+    el = $h.$compile(html);
+    $h.$digest();
   });
 
   describe("render", function() {
