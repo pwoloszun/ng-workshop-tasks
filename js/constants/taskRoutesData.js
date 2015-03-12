@@ -8,8 +8,8 @@ App.constant("taskRoutesData", [{
   filename: "002_controllers_basics"
 }, {
   state: "task-3",
-  name: "Custom filters",
-  filename: "003_custom_filters"
+  name: "Refactored Controllers",
+  filename: "003_refactored_controllers"
 }, {
   state: "task-4",
   name: "ng filters",
@@ -74,4 +74,8 @@ App.constant("taskRoutesData", [{
   state: "task-19",
   name: "Cross Components Communications: Shared Service",
   filename: "019_cross_components_communication_observer"
+}, {
+  state: "task-20",
+  name: "Custom filters",
+  filename: "020_custom_filters"
 }]);
