@@ -1,4 +1,4 @@
 Define directives:
-- rm-click
-- rm-dbl-click
-- rm-log-pressed-key (add it on input element)
+- rm-click (jquery event name: "click")
+- rm-dbl-click ("dblclick")
+- rm-log-pressed-key (add it on input element) ("keyup")
