@@ -1,5 +1,5 @@
 Add toggle button. When user clicks on button:
-1) define controller "ButtonController"
+1) define controller "ButtonCtrl"
 2) it hides/shows "#toggle-cont" element
     (use ng-hide directive)
 3) it adds/removes css class "alert" on clicked button
