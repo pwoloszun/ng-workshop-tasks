@@ -78,4 +78,8 @@ App.constant("taskRoutesData", [{
   state: "task-20",
   name: "Custom filters",
   filename: "020_custom_filters"
+}, {
+  state: "task-21",
+  name: "Directive isolated scope: Events",
+  filename: "021_directive_isolated_scope_events"
 }]);
