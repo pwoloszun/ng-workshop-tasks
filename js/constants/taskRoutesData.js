@@ -72,7 +72,7 @@ App.constant("taskRoutesData", [{
   filename: "018_scope_watch_types"
 }, {
   state: "task-19",
-  name: "Cross Components Communications: Shared Service",
+  name: "Cross Components Communications: Observer",
   filename: "019_cross_components_communication_observer"
 }, {
   state: "task-20",
