@@ -5,7 +5,7 @@ App.directive("myClick", [
       link: function(scope, element, attributes) {
         element.on("click", function(event) {
           event.preventDefault();
-          scope.fetchPeople(); // TODO: refactor, use scope.$eval
+          scope.fetchPeople(); // TODO: refactor, use scope.$apply
         });
 
         scope.$on("$destroy", function() {
