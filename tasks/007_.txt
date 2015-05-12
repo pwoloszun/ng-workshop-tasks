@@ -2,9 +2,11 @@ Create directive:
 1) click-toggle-class
 
 <input ng-model="xxx"/>
-<button click-toggle-class="alert" call="xxx = xxx + 'q'">
+<button click-toggle-class="alert tiny" call="xxx = xxx + ' QQ!'">
   test
 </button>
+
+<a click-toggle-class="success">qq</a>
 
 use jQuery: .toggleClass() method
 

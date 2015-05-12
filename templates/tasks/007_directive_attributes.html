@@ -1,9 +1,18 @@
 <h3>Directive attributes</h3>
 <div class='row'>
   <h5>Magic box</h5>
+
   <div parametrized-magic-box='imba!' xxx="yyy = 123"></div>
   <div parametrized-magic-box='qq!' xxx="yyy = 997"></div>
   <div parametrized-magic-box='qq!' xxx="{{yyy}}"></div>
 
   <input ng-model="yyy"/>
+</div>
+
+<div class="row">
+  <input ng-model="xxx"/>
+  <button click-toggle-class="alert tiny" call="xxx = xxx + ' QQ!'">
+    test
+  </button>
+  <a click-toggle-class="success">qq</a>
 </div>
