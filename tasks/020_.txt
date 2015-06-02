@@ -4,3 +4,4 @@
 
 3. Create filter percentage, reuse built-0in filter: "number".
   It should display "%" if value is empty/undefined/null
+  code: numberFilterFn = $filter("number")
