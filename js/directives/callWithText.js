@@ -1,6 +1,5 @@
 App.directive("callWithText", [
-  "templatesProvider",
-  function(templatesProvider) {
+  function() {
     // TODO
     return {};
   }
