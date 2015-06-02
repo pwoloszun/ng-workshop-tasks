@@ -5,7 +5,7 @@
   <div parametrized-magic-box='imba!' xxx="yyy = 123"></div>
   <div parametrized-magic-box='qq!' xxx="yyy = 997"></div>
   <div parametrized-magic-box='qq!' xxx="{{yyy}}"></div>
-
+  <parametrized-magic-box ggg="123"></parametrized-magic-box>
   <input ng-model="yyy"/>
 </div>
 
@@ -13,6 +13,9 @@
   <input ng-model="xxx"/>
   <button click-toggle-class="alert tiny" call="xxx = xxx + ' QQ!'">
     test
+  </button>
+  <button click-toggle-class="success large">
+    test 2
   </button>
   <a click-toggle-class="success">qq</a>
 </div>
