@@ -6,8 +6,6 @@ Add toggle button. When user clicks on button:
     (use: ng-class directive)
 4) it changes button text to: "Show it!"/"Hide it"
 
-===
-Books Ctrl:
-1) implement Books Ctrl view
-2) implement BooksCtrl specs
-3) refactor: implement booksCollection
+use:
+  ng-class
+  ng-show
