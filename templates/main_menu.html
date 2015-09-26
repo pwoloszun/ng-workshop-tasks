@@ -1,0 +1,8 @@
+<h1>AngularJS Workshop</h1>
+<ol>
+  <li ng-repeat="taskRoute in taskRoutes">
+    <a ui-sref="{{taskRoute.state}}">
+      {{taskRoute.name}}
+    </a>
+  </li>
+</ol>

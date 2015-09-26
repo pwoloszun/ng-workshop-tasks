@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="Ng-Tasks-App">
 <head>
   <link href="css/all.css" rel="stylesheet" type="text/css"/>
   <!-- vendor libs -->
@@ -9,14 +9,15 @@
   <script src="js/vendor/angular-ui-router.js"></script>
   <!-- app init -->
   <script src="js/App.js"></script>
-  <!-- constants -->
-  <script src="js/constants/taskRoutesData.js"></script>
-  <script src="js/constants/templatesProvider.js"></script>
+  <!-- providers -->
+  <script src="js/providers/taskRoutes.js"></script>
+  <script src="js/providers/templates.js"></script>
   <!-- filters -->
   <script src="js/filters/reverse.js"></script>
   <script src="js/filters/reverseSplit.js"></script>
   <script src="js/filters/percentage.js"></script>
   <!-- directives -->
+  <script src="js/directives/labeledField.js"></script>
   <script src="js/directives/initFoundation.js"></script>
   <script src="js/directives/rmClick.js"></script>
   <script src="js/directives/rmLogPressedKey.js"></script>
@@ -43,7 +44,6 @@
   <script src="js/directives/sharedScopeDir.js"></script>
   <!-- services -->
   <script src="js/services/pubSub.js"></script>
-  <script src="js/services/mainMenuItemsService.js"></script>
   <script src="js/services/playersService.js"></script>
   <script src="js/services/booksCollection.js"></script>
   <script src="js/repositories/playersRepository.js"></script>
@@ -80,7 +80,6 @@
   <script src="js/controllers/observer/ConsumerCtrl.js"></script>
   <!-- tasks -->
   <script src="js/routes.js"></script>
-  <script src="js/bootstrap.js"></script>
 </head>
 <body>
 <nav class='top-bar' data-topbar>

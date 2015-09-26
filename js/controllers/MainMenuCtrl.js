@@ -1,7 +1,7 @@
 App.controller("MainMenuCtrl", [
   "$scope",
-  "mainMenuItemsService",
-  function($scope, mainMenuItemsService) {
-    $scope.mainMenuItems = mainMenuItemsService.all();
+  "taskRoutes",
+  function($scope, taskRoutes) {
+    $scope.taskRoutes = taskRoutes.routes;
   }
 ]);
