@@ -1,0 +1,2 @@
+Mddify labeledField:
++ add Log Btn and log input text on console
