@@ -1,10 +1,9 @@
 App.directive("labeledField", [
   function() {
     var definition = {
-      template: '<label>{{labelText}}</label><input ng-model="fieldValue" />',
+      templateUrl: 'templates/directive/labeled_field.html',
       link: function(scope) {
-        scope.labelText = "First Name";
-        scope.fieldValue = "asd";
+        scope.fieldValue = "some fancy value";
       }
     };
 
