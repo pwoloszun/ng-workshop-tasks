@@ -4,7 +4,12 @@ App.directive("callFn", [
       scope: {
         fnToCall: "&"
       },
-      template: "<button ng-click='fnToCall()'>Click</button>"
+      template: "<button ng-click='fnToCall()()'>Click</button>",
+      link: function(scope) {
+
+        //scope.fnToCall()(123, "qq", bob);
+
+      }
     };
   }
 ]);
