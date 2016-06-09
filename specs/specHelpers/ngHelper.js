@@ -1,13 +1,13 @@
 var $h = {};
 
-beforeEach(function() {
-  module('Ng-Tasks-App', function($provide) {
+beforeEach(function () {
+  module('Ng-Tasks-App', function ($provide) {
     $h.$provide = $provide;
   });
 });
 
-beforeEach(function() {
-  inject(function($httpBackend, $compile, $rootScope, $controller, $location, $injector, $timeout, $filter) {
+beforeEach(function () {
+  inject(function ($httpBackend, $compile, $rootScope, $controller, $location, $injector, $timeout, $filter) {
     $h.$scope = $rootScope.$new();
     $h.$http = $httpBackend;
     $h.$location = $location;
@@ -15,7 +15,7 @@ beforeEach(function() {
     $h.$filter = $filter;
     $h.$injector = $injector;
 
-    $h.$compile = function(html, scope) {
+    $h.$compile = function (html, scope) {
       var linkFn = $compile(html);
       return linkFn($h.$scope);
     };
@@ -23,11 +23,11 @@ beforeEach(function() {
     var ctrlDefaultDependencies = {
       "$scope": $h.$scope
     };
-    $h.$controller = function(id, dependencies) {
+    $h.$controller = function (id, dependencies) {
       $controller(id, _(ctrlDefaultDependencies).extend(dependencies || {}));
     };
 
-    $h.$inject = function(name, dependencies) {
+    $h.$inject = function (name, dependencies) {
       for (var id in dependencies || {}) {
         var mock = dependencies[id];
         $h.$provide.value(id, mock);
@@ -35,7 +35,7 @@ beforeEach(function() {
       return $h.$injector.get(name);
     };
 
-    $h.$digest = function() {
+    $h.$digest = function () {
       $h.$scope.$digest();
     };
     //$h.sandbox = sinon.sandbox.create();
@@ -43,7 +43,8 @@ beforeEach(function() {
 
 });
 
-afterEach(function() {
+afterEach(function () {
   $h.$http.resetExpectations();
   $h.$http.verifyNoOutstandingExpectation();
+  jasmineExpect(true).toBe(true); // chai.js expectations hack
 });
