@@ -70,7 +70,7 @@ App.provider("taskRoutes", [
       name: "Directive scope",
       filenameSuffix: "_directive_scope"
     }, {
-      name: "Directive isolated scope: one way binding (>)",
+      name: "Directive isolated scope: one way binding (<)",
       filenameSuffix: "_directive_isolated_scope_one_way_binding"
     }];
 
