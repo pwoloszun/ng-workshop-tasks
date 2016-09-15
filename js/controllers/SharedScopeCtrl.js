@@ -1,7 +1,6 @@
 angular.module("Ng-Tasks-App").controller("SharedScopeCtrl", [
-  function () {
-    var vm = this;
-
-    //TODO
+  "$scope",
+  function ($scope) {
+    // $scope.dirModel = "batman!";
   }
 ]);
