@@ -1,6 +1,7 @@
-App.controller("SharedScopeCtrl", [
-  "$scope",
-  function($scope) {
+angular.module("Ng-Tasks-App").controller("SharedScopeCtrl", [
+  function () {
+    var vm = this;
+
     //TODO
   }
 ]);

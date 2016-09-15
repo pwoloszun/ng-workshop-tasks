@@ -1,4 +1,4 @@
-App.factory("playersRepository", [
+angular.module("Ng-Tasks-App").factory("playersRepository", [
   "$http",
   function($http) {
     var URL = "server/players.json";

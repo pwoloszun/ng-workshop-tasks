@@ -1,4 +1,4 @@
-App.factory("pubSub", [
+angular.module("Ng-Tasks-App").factory("pubSub", [
   "$rootScope",
   function($rootScope) {
     var pubSub = {

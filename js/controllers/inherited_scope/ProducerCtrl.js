@@ -1,4 +1,4 @@
-App.controller("InheritedScope.ProducerCtrl", [
+angular.module("Ng-Tasks-App").controller("InheritedScope.ProducerCtrl", [
   "$scope",
   function($scope) {
 

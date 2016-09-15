@@ -1,4 +1,4 @@
-App.controller("AllStarGameCtrl", [
+angular.module("Ng-Tasks-App").controller("AllStarGameCtrl", [
   "$scope",
   "playersService",
   function($scope, playersService) {

@@ -1,4 +1,4 @@
-App.directive("interactiveMagicBox", [
+angular.module("Ng-Tasks-App").directive("interactiveMagicBox", [
   function() {
     return {
       restrict: "AE",

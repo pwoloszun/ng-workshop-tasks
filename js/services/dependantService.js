@@ -1,4 +1,4 @@
-App.factory("dependantService", [
+angular.module("Ng-Tasks-App").factory("dependantService", [
   "firstDependencyService",
   "secondDependencyService",
   function(firstDependencyService, secondDependencyService) {

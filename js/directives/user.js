@@ -1,4 +1,4 @@
-App.directive("user", [
+angular.module("Ng-Tasks-App").directive("user", [
   function() {
     return {
       scope: {

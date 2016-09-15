@@ -1,4 +1,4 @@
-App.directive("iceCream", [
+angular.module("Ng-Tasks-App").directive("iceCream", [
   function() {
     return {
       scope: {

@@ -1,4 +1,4 @@
-App.directive("walking", [
+angular.module("Ng-Tasks-App").directive("walking", [
   function() {
     return {
       require: "human",

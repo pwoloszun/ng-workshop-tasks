@@ -1,4 +1,4 @@
-App.config([
+angular.module("Ng-Tasks-App").config([
   "$stateProvider",
   "$urlRouterProvider",
   "taskRoutesProvider",

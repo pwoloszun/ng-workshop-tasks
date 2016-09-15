@@ -1,6 +1,6 @@
 <h3>Shared Scope directive</h3>
-<div ng-controller="SharedScopeCtrl">
-  Ctrl Model: <input ng-model="dirModel"/>
+<div ng-controller="SharedScopeCtrl as vm">
+  Ctrl Model: <input ng-model="vm.dirModel"/>
   <hr/>
   <div>
     <shared-scope-dir>Shared Scope Dir 1</shared-scope-dir>

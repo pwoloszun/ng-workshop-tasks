@@ -1,4 +1,4 @@
-App.directive("myClick", [
+angular.module("Ng-Tasks-App").directive("myClick", [
   function() {
     return {
       restrict: "A",

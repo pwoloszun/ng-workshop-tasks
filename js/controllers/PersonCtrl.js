@@ -1,4 +1,4 @@
-App.controller("PersonCtrl", [
+angular.module("Ng-Tasks-App").controller("PersonCtrl", [
   "$scope",
   function($scope) {
 

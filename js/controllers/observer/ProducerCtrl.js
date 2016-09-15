@@ -1,4 +1,4 @@
-App.controller("Observer.ProducerCtrl", [
+angular.module("Ng-Tasks-App").controller("Observer.ProducerCtrl", [
   "$scope",
   "Observer.observablePersonService",
   function($scope, observablePersonService) {

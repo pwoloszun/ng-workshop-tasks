@@ -1,6 +1,9 @@
-App.directive("itemsList", [
-  "templatesProvider",
-  function(templatesProvider) {
+angular.module("Ng-Tasks-App").directive("itemsList", [
+  "templates",
+  function(templates) {
     //TODO
+    return {
+      restrict: "E"
+    };
   }
 ]);

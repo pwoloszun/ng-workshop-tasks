@@ -1,4 +1,4 @@
-App.directive("human", [
+angular.module("Ng-Tasks-App").directive("human", [
   function() {
     // TODO: isolated scope
     return {

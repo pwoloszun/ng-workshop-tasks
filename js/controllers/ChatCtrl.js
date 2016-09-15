@@ -1,4 +1,4 @@
-App.controller("ChatCtrl", [
+angular.module("Ng-Tasks-App").controller("ChatCtrl", [
   "$scope",
   function($scope) {
     $scope.messages = [];

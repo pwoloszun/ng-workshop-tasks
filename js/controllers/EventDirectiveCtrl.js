@@ -1,4 +1,4 @@
-App.controller("EventChatCtrl", [
+angular.module("Ng-Tasks-App").controller("EventChatCtrl", [
   "$scope",
   function($scope) {
 

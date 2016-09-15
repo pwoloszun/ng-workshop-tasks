@@ -1,4 +1,4 @@
-App.controller("InheritedScope.ConsumerCtrl", [
+angular.module("Ng-Tasks-App").controller("InheritedScope.ConsumerCtrl", [
   "$scope",
   function($scope) {
 

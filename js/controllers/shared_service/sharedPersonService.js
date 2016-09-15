@@ -1,4 +1,4 @@
-App.factory("SharedService.sharedPersonService", [
+angular.module("Ng-Tasks-App").factory("SharedService.sharedPersonService", [
   function() {
 
     var bob = {name: "bob"};

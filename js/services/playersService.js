@@ -1,4 +1,4 @@
-App.factory("playersService", [
+angular.module("Ng-Tasks-App").factory("playersService", [
   function() {
     var PLAYERS = [
       {

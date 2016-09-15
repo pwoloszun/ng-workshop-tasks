@@ -1,4 +1,4 @@
-App.directive("initFoundation", [
+angular.module("Ng-Tasks-App").directive("initFoundation", [
   "$document",
   function($document) {
     var definition = {

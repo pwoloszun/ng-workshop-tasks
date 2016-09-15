@@ -1,4 +1,4 @@
-App.controller("PeopleCtrl", [
+angular.module("Ng-Tasks-App").controller("PeopleCtrl", [
   "$scope",
   function($scope) {
     $scope.people = null;

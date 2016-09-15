@@ -1,4 +1,4 @@
-App.provider("taskRoutes", [
+angular.module("Ng-Tasks-App").provider("taskRoutes", [
   function() {
     var BASE_DATA = [{
       name: "Binding",

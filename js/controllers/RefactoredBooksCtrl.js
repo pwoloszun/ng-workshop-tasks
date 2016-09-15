@@ -1,4 +1,4 @@
-App.controller("RefactoredBooksCtrl", [
+angular.module("Ng-Tasks-App").controller("RefactoredBooksCtrl", [
   "$scope",
   //"booksCollection",
   function($scope, booksCollection) {

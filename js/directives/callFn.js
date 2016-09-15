@@ -1,4 +1,4 @@
-App.directive("callFn", [
+angular.module("Ng-Tasks-App").directive("callFn", [
   function() {
     return {
       scope: {

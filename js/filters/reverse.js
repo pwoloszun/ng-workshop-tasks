@@ -1,4 +1,4 @@
-App.filter("reverse", [
+angular.module("Ng-Tasks-App").filter("reverse", [
   function() {
     var reverseFilter = function(text) {
       text = text || "";

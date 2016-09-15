@@ -1,4 +1,4 @@
-App.directive("foundationModal", [
+angular.module("Ng-Tasks-App").directive("foundationModal", [
   "$document",
   function($document) {
     return {

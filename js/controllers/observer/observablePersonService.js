@@ -1,4 +1,4 @@
-App.factory("Observer.observablePersonService", [
+angular.module("Ng-Tasks-App").factory("Observer.observablePersonService", [
   function() {
     var events = {};
 

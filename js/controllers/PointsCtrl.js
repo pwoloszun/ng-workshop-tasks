@@ -1,4 +1,4 @@
-App.controller("PointsCtrl", [
+angular.module("Ng-Tasks-App").controller("PointsCtrl", [
   "$scope",
   function($scope) {
     $scope.myPoints = [

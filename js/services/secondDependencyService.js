@@ -1,4 +1,4 @@
-App.factory("secondDependencyService", [
+angular.module("Ng-Tasks-App").factory("secondDependencyService", [
   function() {
     var secondDependencyService = {
       getValue: function() {

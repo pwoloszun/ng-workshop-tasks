@@ -1,4 +1,4 @@
-App.provider("templates", [
+angular.module("Ng-Tasks-App").provider("templates", [
   function() {
     var templates = {
       taskTemplateUrl: function(name) {

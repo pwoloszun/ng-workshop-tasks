@@ -1,4 +1,4 @@
-App.directive("labeledField", [
+angular.module("Ng-Tasks-App").directive("labeledField", [
   function() {
     var definition = {
       templateUrl: 'templates/directives/labeled_field.html',

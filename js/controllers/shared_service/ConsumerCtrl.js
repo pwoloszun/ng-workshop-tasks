@@ -1,4 +1,4 @@
-App.controller("SharedService.ConsumerCtrl", [
+angular.module("Ng-Tasks-App").controller("SharedService.ConsumerCtrl", [
   "$scope",
   "SharedService.sharedPersonService",
   function($scope, sharedPersonService) {

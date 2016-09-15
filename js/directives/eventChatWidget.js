@@ -1,4 +1,4 @@
-App.directive("eventChatWidget", [
+angular.module("Ng-Tasks-App").directive("eventChatWidget", [
   function() {
     return {
       scope: {},

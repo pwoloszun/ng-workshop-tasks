@@ -1,4 +1,4 @@
-App.controller("MainMenuCtrl", [
+angular.module("Ng-Tasks-App").controller("MainMenuCtrl", [
   "$scope",
   "taskRoutes",
   function($scope, taskRoutes) {

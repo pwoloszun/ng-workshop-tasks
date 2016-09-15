@@ -1,4 +1,4 @@
-App.controller("Events.ConsumerCtrl", [
+angular.module("Ng-Tasks-App").controller("Events.ConsumerCtrl", [
   "$scope",
   "pubSub",
   function($scope, pubSub) {

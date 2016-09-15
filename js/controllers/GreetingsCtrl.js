@@ -1,4 +1,4 @@
-App.controller("GreetingsCtrl", [
+angular.module("Ng-Tasks-App").controller("GreetingsCtrl", [
   "$scope",
   function($scope) {
     $scope.greet = function() {
